@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "research": {
+      "source": "pwguler/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research/SKILL.md",
+      "computedHash": "ff35a9dfb6b03036fac33fd59d846a2dda57be9846adfe3b6ca475d3ac1f2132"
+    }
+  }
+}
