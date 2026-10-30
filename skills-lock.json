@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "perf": {
+      "source": "pwguler/skills",
+      "sourceType": "github",
+      "skillPath": "skills/perf/SKILL.md",
+      "computedHash": "529e9a518c2b80e103f6bb425588fd2bb1fc3a9ebe689b5a91a87ef14cf0c291"
+    },
+    "research": {
+      "source": "pwguler/skills",
+      "sourceType": "github",
+      "skillPath": "skills/research/SKILL.md",
+      "computedHash": "ff35a9dfb6b03036fac33fd59d846a2dda57be9846adfe3b6ca475d3ac1f2132"
+    }
+  }
+}
