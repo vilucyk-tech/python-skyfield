@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "human-writing": {
+      "source": "pr-pm/prpm",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/human-writing/SKILL.md",
+      "computedHash": "8ca93b03b8c3548073fc8f2d1781af5b81e989f30c67b053687d3e014899ea42"
+    },
     "perf": {
       "source": "pwguler/skills",
       "sourceType": "github",
