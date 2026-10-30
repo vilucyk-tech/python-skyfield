@@ -12,12 +12,6 @@
       "sourceType": "github",
       "skillPath": "skills/research/SKILL.md",
       "computedHash": "ff35a9dfb6b03036fac33fd59d846a2dda57be9846adfe3b6ca475d3ac1f2132"
-    },
-    "tldr": {
-      "source": "pwguler/skills",
-      "sourceType": "github",
-      "skillPath": "skills/tldr/SKILL.md",
-      "computedHash": "0278d601f4c4b193c142fefa6608a8e8bce0720fef8309438e5813ddb9d86e4e"
     }
   }
 }
