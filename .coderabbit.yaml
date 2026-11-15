@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Конфігурація CodeRabbit. Діє лише після встановлення GitHub App CodeRabbit на цей репозиторій.
+language: uk-UA
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  in_progress_fortune: false
+  auto_review:
+    enabled: true
+    drafts: false
+  path_filters:
+    - "!**/*.bsp"
+    - "!hip_main.dat"
+    - "!hip_main.dat.gz"
+    - "!Table-S15.2020.txt"
+  path_instructions:
+    - path: "skyfield/**/*.py"
+      instructions: >-
+        Це бібліотека астрономічних обчислень. Перевіряй чисельну коректність:
+        одиниці вимірювання, шкали часу (UTC, TT, TDB, UT1), системи координат,
+        втрату точності у float64. Код має працювати з масивами NumPy без циклів
+        Python по елементах. Зміни публічного API мають зберігати зворотну сумісність.
+    - path: "skyfield/tests/**"
+      instructions: >-
+        Перевіряй, що тест порівнює результат з незалежним еталоном і з явним
+        допуском, а не з числом, отриманим із того самого коду.
+chat:
+  auto_reply: true
